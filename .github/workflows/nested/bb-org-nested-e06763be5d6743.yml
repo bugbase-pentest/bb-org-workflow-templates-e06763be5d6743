@@ -1,0 +1,8 @@
+name: bb-org-template-e06763be5d6743
+on:
+  workflow_dispatch:
+jobs:
+  marker:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo bb-org-nested-a-e06763be5d6743
