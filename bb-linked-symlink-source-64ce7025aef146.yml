@@ -1,0 +1,11 @@
+name: bb-linked-SYMLINK-SOURCE-64ce7025aef146
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "bb-linked-SYMLINK-SOURCE-64ce7025aef146"
